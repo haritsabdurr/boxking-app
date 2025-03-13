@@ -33,6 +33,7 @@ const Login = () => {
 
   useEffect(() => {
     onFinish();
+    console.log(baseUrl);
   }, []);
 
   return (
