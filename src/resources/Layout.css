@@ -1,0 +1,44 @@
+.ant-layout-header {
+  padding: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+
+.ant-layout-has-sider {
+  padding: 15px !important;
+}
+
+.ant-layout-sider-dark {
+  height: 95vh;
+  padding: 15px;
+}
+
+.demo-logo-vertical h3 {
+  color: gold;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ant-menu-item-selected {
+  background-color: gold !important;
+  color: rgb(6, 7, 26) !important;
+}
+
+.ant-layout-content {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  margin-bottom: 140px;
+  transform: translate(-50%, -50%);
+}
+
+.spinner-border {
+  height: 60px;
+  width: 60px;
+}
